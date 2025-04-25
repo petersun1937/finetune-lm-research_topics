@@ -1,0 +1,42 @@
+[
+  {
+    "input": "How can we correct multilingual grammatical errors effectively?",
+    "output": "Use a multilingual encoder-decoder model equipped with language-specific adapters, trained on synthetic grammatical errors derived from morphosyntactic templates. Integrate beam rescoring modules using monolingual fluency discriminators."
+  },
+  {
+    "input": "What are the best strategies for few-shot abstractive question answering?",
+    "output": "Implement a retrieval-augmented QA system that uses example-driven prompt generation. Incorporate contrastive representation learning between support examples and candidate answers for better alignment."
+  },
+  {
+    "input": "How to detect and mitigate bias in generated questions?",
+    "output": "Use a two-stage system where question generators are followed by bias detectors trained on linguistically annotated cues. Introduce a debiasing layer that rephrases problematic patterns via conditional rewriting."
+  },
+  {
+    "input": "What are current solutions for summarizing extremely long articles?",
+    "output": "Leverage hierarchical encoders with recursive summarization checkpoints. Train segment summarizers with temporal coherence loss and fuse outputs using learned summary discourse graphs."
+  },
+  {
+    "input": "How do we model user preferences in dialogue generation?",
+    "output": "Represent user behavior with structured profiles and dynamically embed these during decoding. Fine-tune generators on persona-specific dialogues and optimize for controllability using reinforcement from human feedback."
+  },
+  {
+    "input": "What are tokenization-free alternatives for language modeling?",
+    "output": "Train byte-level transformers with learned byte-pair positional offsets. Replace subword boundaries with entropy-based chunk segmentation and evaluate on multilingual datasets with varied script lengths."
+  },
+  {
+    "input": "What techniques support speech-to-text alignment in low-resource languages?",
+    "output": "Align self-supervised audio encoders with weakly-labeled phoneme spans via CTC alignment heads. Boost alignment accuracy using cross-lingual phonetic knowledge transfer from high-resource anchors."
+  },
+  {
+    "input": "How can systems handle topic drift in ongoing conversations?",
+    "output": "Detect semantic divergence using embedding trajectory tracking across turns. Apply a gating mechanism to re-anchor the conversation state using topic prompts or clarification questions."
+  },
+  {
+    "input": "How to improve answer reranking in hybrid search engines?",
+    "output": "Combine BM25 and dense retriever scores through a learned gating function sensitive to query complexity. Apply contextual reranking using BERT-based cross-encoders trained on click-through relevance."
+  },
+  {
+    "input": "What are viable ways to ground symbolic representations in instruction tasks?",
+    "output": "Design dual encoders to match structured action graphs with natural instruction spans. Supervise training with alignment labels and enforce consistency between predicted steps and goal states."
+  }
+]
